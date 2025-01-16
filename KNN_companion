@@ -1,0 +1,17 @@
+The figures produced in the KNN file are described below.
+
+KNN_Figure_1: This figure plots all of the variables against the other variables. This is done to understand the relationship between the models. Fortunately, there don't seem to be any outright relationships.
+KNN_Figure_2: This figure plots all of the outcomes. There is an 80/20 split between no heart disease and heart disease. For the KNN model, this indicates that the dataset be truncated to even out the ratio of no:yes.
+KNN_Figure_3: This figure is the cross-validation in which I plotted the evaluation metrics against different K values to see which K value is best. The best was 20
+KNN_Figure_4: This figure is similar to Figure 3 but the KNN model was built without categorical variables (the first model changed the categorical variables to integers No->0, Yes->1). The best was 20
+KNN_Figure_5: This figure shows how the evaluation metrics change as the K value increases up to 1000. I included it because the results were interesting to me.
+
+Summary of Findings:
+I used the sci-kit-learn KNeighborsClassifier to develop this KNN model. I have some experience with KNN but it was still fun to experiment on my own time to develop a KNN model.
+The KNN model had poor evaluation metrics, around 0.5, regardless of the inclusion of categorical variables. This indicates that the model is not very good at predicting heart disease given the variables in the dataset.
+It is worth noting that the KNN model performs better in Recall and F1-score if the K value increases to 1000. I don't know the implications of this value, but my gut tells me that it is far too high so I elected to not consider this model as the final KNN model produced .
+KNN is not great when the number of features increases because the space is very high dimensioned and each point can end up being very far apart. This is likely the reason that the evaluation metrics are so low.
+
+Future works: 
+I am going to develop different ML models next. I think a random forest should be next. I could do a classification tree but why stop there?
+I am also intrigued at the idea of coding a KNN function myself rather than using the sci-kit-learn model. The core principles are relatively simple so I think it would be fun to try to make the model myself. 
