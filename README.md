@@ -6,3 +6,4 @@ The files uploaded are
   figures produced in the code to help decision making and understand the model,
   a excel file with the evaluation metrics compiled,
   and a text file describing the figures that were generated.
+The KNN model was not that great with an accuracy, precision, recall, and f1 score sitting around 0.5 (exact values can be seen in ML_Model_Scores.xlsx)
