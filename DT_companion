@@ -1,0 +1,11 @@
+The figures produced are as follows:
+
+Figure 1: the first classification tree that was generated for the data. It is very large and caused my computer to lag. It also did not have great results
+Figure 2: the final classification tree with a max depth of 5 and minimum samples per split of 15. 
+
+Summary of Findings: 
+The tree had similar performance to the KNN, resting around 0.5 for accuracy, precision, and f1 but around 0.7 for recall. this is maybe a positive if we want to use the model for diagnostic purposes but still not great. 
+I don't know if there is an inherent issue with the dataset but I expected better evaluation scores for the tree compared to KNN.
+
+Future works:
+try random forest. Perhaps it will do better than classification tree. 
