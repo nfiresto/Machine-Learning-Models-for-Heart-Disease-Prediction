@@ -10,9 +10,9 @@ The KNN model was not that great with an accuracy, precision, recall, and f1 sco
 
 As of 3/23/25, I have implemented decision tree as well and uploaded the files.
 The files uploaded are
-  the python file with the decision tree implemented
-  figures showing the produced decision tree
-  an updated excel file
+  the python file with the decision tree implemented, 
+  figures showing the produced decision tree, 
+  an updated excel file, 
   and a text file describing the figures.
 The decision tree was not great either. Accuracy, precision, and f1 were sitting around 0.5 but recall jumped to 0.7 which was cool.
 
