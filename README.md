@@ -15,3 +15,8 @@ The files uploaded are
   an updated excel file
   and a text file describing the figures.
 The decision tree was not great either. Accuracy, precision, and f1 were sitting around 0.5 but recall jumped to 0.7 which was cool.
+
+As of 4/8/25, I have implemented random forest.
+i just uploaded a
+  python file and an update excel file
+Random forest was kind of the worst one so far. low 0.5 scores and even in the 0.4 range at some point.
